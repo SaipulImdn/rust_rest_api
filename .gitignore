@@ -1,0 +1,25 @@
+# .env file (configuration for environment variables)
+.env
+
+# Cargo.lock file (to avoid version conflicts across different environments)
+Cargo.lock
+
+# Target directory for compiled artifacts
+/target/
+
+# Ignoring IDE and editor-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Backup files
+*~
+
+# Ignore Diesel migrations (optional if you don't want migrations to be pushed)
+migrations/
+
+# Ignore any other sensitive or unnecessary files
